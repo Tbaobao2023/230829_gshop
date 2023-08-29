@@ -1,0 +1,121 @@
+{
+  "id": "4194473",
+  "name": "谷粒外卖",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "637764",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "630094",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "666888",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "2076358",
+      "name": "返回箭头",
+      "font_class": "fanhuijiantou",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "145498",
+      "name": "优惠券",
+      "font_class": "youhuiquan",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "3750333",
+      "name": "VIP",
+      "font_class": "VIP",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "5657522",
+      "name": "积分",
+      "font_class": "jifen",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "6977904",
+      "name": "服务01",
+      "font_class": "fuwu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "13477629",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "29916612",
+      "name": "折扣",
+      "font_class": "zhekou",
+      "unicode": "edc4",
+      "unicode_decimal": 60868
+    },
+    {
+      "icon_id": "145438",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "23034119",
+      "name": "米饭",
+      "font_class": "mifan1",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "5343675",
+      "name": "我的",
+      "font_class": "tuanduicankaoxian-",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "5343676",
+      "name": "搜索",
+      "font_class": "tuanduicankaoxian-1",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "5343677",
+      "name": "订单",
+      "font_class": "tuanduicankaoxian-2",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "5343680",
+      "name": "首页",
+      "font_class": "tuanduicankaoxian-3",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}
