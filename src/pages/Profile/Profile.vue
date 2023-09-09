@@ -3,12 +3,12 @@
     <section class="profile">
       <HeaderTop title="我的"></HeaderTop>
       <section class="profile-number">
-        <router-link class="profile-link" to="/login">
+        <router-link class="profile-link" :to="userInfo._id ? '/userinfo':'/login'">
           <div class="profile_image">
             <i class="iconfont icon-yonghuming icon-geren"></i>
           </div>
           <div class="user-info">
-            <p class="user-info-top">登入|注册</p>
+            <p class="user-info-top">{{userInfo.name || '登入|注册'}}</p>
             <p>
               <span class="user-icon">
                 <i class="iconfont icon-mobile icon-shouji"></i>
@@ -97,11 +97,15 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import HeaderTop from '../../components/HeaderTop/HeaderTop.vue'
 export default {
     name:'Profile',
     components:{
       HeaderTop
+    },
+    computed:{
+      ...mapState(['userInfo'])
     }
 }
 </script>

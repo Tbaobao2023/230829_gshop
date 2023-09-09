@@ -5,6 +5,8 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 // 引入路由器
 import router from './router'
+// 引入Vuex的store对象
+import store from './store'
 
 // 引入图标样式
 import './common/icon/iconfont.css'
@@ -17,5 +19,6 @@ Vue.config.productionTip = false
 new Vue({
   el:'#app',
   render: h => h(App),
-  router
+  router,
+  store
 })

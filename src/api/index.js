@@ -1,13 +1,12 @@
-/* 
-    此文件仅作参考，实际项目未用上
-    使用axios发送请求，不用ajax
-*/
 /*
 与后台交互模块 （依赖已封装的ajax函数）
  */
 import ajax from './ajax'
 // const BASE_URL = 'http://local:4000'
 const BASE_URL = '/api'
+
+// ajax(url,参数,请求类型)
+
 /**
  * 获取地址信息(根据经纬度串)
  * 这个接口的经纬度参数是在url路径里的，没有query参数

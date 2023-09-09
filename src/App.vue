@@ -18,6 +18,9 @@ export default {
   components: {
     FooterGuide,     
   },
+  mounted(){
+    this.$store.dispatch('getAddress')
+  },
   /* mounted(){
     axios.get('http://localhost:8080/api/index_category').then(
       response => {
@@ -30,7 +33,7 @@ export default {
   }, */
   async mounted () {
     const result = await reqCategorys()
-    console.log(result)
+    // console.log(result)
   },
 }
 </script>
